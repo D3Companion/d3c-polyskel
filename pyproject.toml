@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "d3c-polyskel"
-version = "0.1.0"
-description = "Your package description"
+version = "0.1.2"
+description = "A library to compute the straight skeleton of a shape."
 readme = "README.md"
 license = {text = "LGPL-3.0-or-later"}
 requires-python = ">=3.8"
