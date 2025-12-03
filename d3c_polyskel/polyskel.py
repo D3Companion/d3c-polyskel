@@ -461,7 +461,7 @@ def _merge_sources(skeleton):
     for i in reversed(to_remove):
         skeleton.pop(i)
 
-def skeletonize(polygon, holes=None):
+def skeletonize(polygon, holes=[]):
     """
     Compute the straight skeleton of a polygon.
 
